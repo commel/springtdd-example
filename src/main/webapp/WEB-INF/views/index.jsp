@@ -2,3 +2,4 @@
  
 Farbe: ${farbe}
 Wetter: ${wetter}
+

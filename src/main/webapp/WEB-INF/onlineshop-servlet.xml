@@ -14,9 +14,10 @@
     <!-- Annotationbasierte Konfiguration -->
     <context:annotation-config/>
    
-    <context:component-scan base-package="de.decoit.springtdd.controller"/>    
+    <context:component-scan base-package="de.decoit.springtdd"/>    
     
     <mvc:annotation-driven />
+    <mvc:resources mapping="/resources/**" location="/resources/" cache-period="0" />
     
     <!-- Konfigurationsdateien -->
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" p:location="classpath:onlineshop.properties" />

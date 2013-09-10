@@ -49,6 +49,6 @@ public class HelloController {
 
         map.put("name", helloCmd.getName());        
         
-        return new ModelAndView("hello", map);
+        return new ModelAndView("sayhello/hello", map);
     }    
 }
